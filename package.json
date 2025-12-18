@@ -1,0 +1,27 @@
+{
+  "name": "linktree",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "screenshots": "node scripts/screenshot.js",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "dependencies": {
+    "mongoose": "^9.0.1",
+    "next": "16.0.10",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.10",
+    "tailwindcss": "^4",
+    "playwright": "^1.43.0"
+  }
+}
